@@ -3,7 +3,7 @@ PATH
   specs:
     nfe-paulistana (1.0.3)
       nokogiri (~> 1.5)
-      savon (= 2.3.0)
+      savon (~> 2.3)
       signer
 
 GEM
@@ -24,20 +24,22 @@ GEM
       rack
       rubyntlm (~> 0.3.2)
     mime-types (1.25.1)
+    mini_portile (0.6.1)
     minitest (5.4.0)
-    nokogiri (1.5.11)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
     nori (2.3.0)
     rack (1.6.4)
     rake (10.3.2)
     rubyntlm (0.3.4)
-    savon (2.3.0)
+    savon (2.3.3)
       akami (~> 1.2.0)
       builder (>= 2.1.2)
       gyoku (~> 1.1.0)
       httpi (~> 2.1.0)
-      nokogiri (>= 1.4.0, < 1.6)
+      nokogiri (>= 1.4.0)
       nori (~> 2.3.0)
-      wasabi (~> 3.2.0)
+      wasabi (~> 3.2.2)
     signer (1.4.2)
       nokogiri (>= 1.5.1)
     wasabi (3.2.3)
