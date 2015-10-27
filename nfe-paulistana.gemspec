@@ -24,6 +24,6 @@ Gem::Specification.new do |s|
   s.add_dependency "signer"
   s.add_development_dependency "rake"
   s.add_development_dependency "minitest"
-  s.add_development_dependency "debugger"
+  s.add_development_dependency "debugger2"
   # s.add_runtime_dependency "rest-client"
 end
